@@ -1,7 +1,13 @@
 import React from 'react';
 
-const Location = () => (
-  <h1>Ciudad de México</h1>
-);
+const Location = ({ city }) => (
+  // Destructuring
+    <div>
+      <h1>
+        {city}
+      </h1>
+    </div>
+  );
+
 
 export default Location;
